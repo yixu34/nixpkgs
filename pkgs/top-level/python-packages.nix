@@ -802,6 +802,8 @@ in {
 
   oauthenticator = callPackage ../development/python-modules/oauthenticator { };
 
+  opencv-python = callPackage ../development/python-modules/opencv-python {};
+
   ordered-set = callPackage ../development/python-modules/ordered-set { };
 
   ortools = (toPythonModule (pkgs.or-tools.override {
